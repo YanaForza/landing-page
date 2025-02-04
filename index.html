@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+/* Основной стиль страницы */
+body {
+    font-family: 'Georgia', serif; /* Элегантный шрифт */
+    background-color: #f3f1f3; /* Светлый фон, пастельный тон */
+    color: #4a3f37; /* Тёмно-коричневый для текста */
+    margin: 0;
+    padding: 0;
+}
+
+/* Контейнер для всей страницы */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Заголовки */
+.header {
+    font-size: 40px;
+    text-align: center;
+    color: #5d3f7e; /* Лавандовый цвет */
+    margin-top: 20px;
+}
+
+.sub-header {
+    font-size: 26px;
+    text-align: center;
+    color: #3c2a47; /* Тёмный оттенок фиолетового */
+    margin-top: 10px;
+}
+
+/* Блоки секций */
+.section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+/* Для кнопок */
+.btn {
+    background-color: #b6a0d7; /* Лавандовый цвет */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #8e6cb5; /* Темнее лавандовый для эффекта при наведении */
+    transition: background-color 0.3s ease;
+}
+
+/* Картинки */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+/* Формы и инпуты */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Разделители */
+hr {
+    border: 1px solid #e2d6f4; /* Легкий лавандовый оттенок */
+    margin-top: 40px;
+}
+
+/* Мобильные стили */
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 30px;
+    }
+
+    .sub-header {
+        font-size: 22px;
+    }
+
+    .section {
+        padding: 20px;
+    }
+
+    .btn {
+        padding: 12px 20px;
+    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стрела Амура</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f7f0e5;
+            color: #333;
+        }
+        header {
+            background-color: #f4d0a0;
+            text-align: center;
+            padding: 30px 0;
+        }
+        h1 {
+            font-size: 36px;
+            color: #6c4a3d;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px;
+        }
+        .button {
+            background-color: #a74c5b;
+            color: white;
+            padding: 15px 30px;
+            text-align: center;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #8c3b47;
+        }
+        .pricing-table {
+            display: flex;
+            justify-content: space-around;
+        }
+        .pricing-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            width: 40%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .pricing-item h3 {
+            text-align: center;
+            font-size: 24px;
+            color: #6c4a3d;
+        }
+        .pricing-item p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        .pricing-item .price {
+            font-size: 32px;
+            color: #a74c5b;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🌹 Стрела Амура — марафон о любви и гармоничных отношениях</h1>
+</header>
+
+<section class="section">
+    <h2>Что тебя ждёт на марафоне?</h2>
+    <ul>
+        <li>День 1: Как узнать, что он за человек по дате рождения?</li>
+        <li>День 2: Где и когда ты встретишь свою судьбу?</li>
+        <li>День 3: Почему нас тянет в свою тень?</li>
+        <li>День 4: Сексуальная совместимость: чего хочет он и чего хочешь ты?</li>
+        <li>День 5: Каким становится мужчина рядом с тобой?</li>
+    </ul>
+</section>
+
+<section class="section">
+    <h2>Тарифы</h2>
+    <div class="pricing-table">
+        <div class="pricing-item">
+            <h3>Стандарт</h3>
+            <p>Доступ ко всем видеоурокам и заданиям</p>
+            <p>Обратная связь в чате (по желанию)</p>
+            <p class="price">$15</p>
+            <p>🎁 Розыгрыш хорарного вопроса!</p>
+        </div>
+        <div class="pricing-item">
+            <h3>VIP</h3>
+            <p>Доступ ко всем видеоурокам и заданиям</p>
+            <p>Личная обратная связь + разборы</p>
+            <p>Эксклюзивные расклады Таро Манара</p>
+            <p class="price">$35</p>
+            <p>🎁 Бонусы: скидка на курс по Манаре, разбор мини-раскладов, консультация на 30 минут</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Отзывы участниц</h2>
+    <div>
+        <h3>«Потрясающе! Я узнала столько нового о себе и своем партнере!»</h3>
+        <p>[Отзыв 1]</p>
+        <h3>«Этот марафон действительно изменил мои отношения!»</h3>
+        <p>[Отзыв 2]</p>
+    </div>
+</section>
+
+<section class="section">
+    <button class="button">Записаться на марафон</button>
+</section>
+
+</body>
+</html>
