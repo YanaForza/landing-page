@@ -3,172 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Стрела Амура</title>
+    <title>Стрела Амура - Марафон по гармонизации отношений</title>
     <style>
         body {
-            font-family: 'Georgia', serif;
-            background-color: #f7f0e5;
-            color: #333;
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #f4d0a0;
+            background-color: #f3e5f5;
             text-align: center;
-            padding: 30px 0;
+            padding: 40px 20px;
         }
-        h1 {
+        header h1 {
+            color: #6a1b9a;
             font-size: 36px;
-            color: #6c4a3d;
-            font-weight: bold;
+            margin: 0;
         }
-        .section {
+        .hero-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+        .content {
             padding: 20px;
-            margin: 20px;
+            text-align: center;
         }
-        h2 {
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #6a1b9a;
+            color: white;
+            font-size: 18px;
+            border-radius: 30px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .testimonials {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .testimonials h2 {
+            color: #6a1b9a;
             font-size: 28px;
-            color: #6c4a3d;
         }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
+        .testimonial-images {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
         }
-        ul li {
+        .testimonial-images img {
+            width: 120px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #6a1b9a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .pricing {
+            background-color: #f3e5f5;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .pricing h2 {
+            color: #6a1b9a;
+            font-size: 28px;
+        }
+        .price-option {
+            display: inline-block;
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .price-option h3 {
+            color: #6a1b9a;
+            font-size: 24px;
+            margin: 0;
+        }
+        .price-option p {
+            color: #6a1b9a;
             font-size: 18px;
             margin: 10px 0;
         }
-        .button {
-            background-color: #a74c5b;
-            color: white;
-            padding: 15px 30px;
-            text-align: center;
+        .price-option .price {
+            font-size: 22px;
+            color: #6a1b9a;
+        }
+        .price-option .cta-button {
+            margin-top: 15px;
+            padding: 12px 25px;
             font-size: 18px;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
-            display: inline-block;
-            text-decoration: none;
-        }
-        .button:hover {
-            background-color: #8c3b47;
-        }
-        .pricing-table {
-            display: flex;
-            justify-content: space-around;
-        }
-        .pricing-item {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            width: 40%;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin: 10px;
-        }
-        .pricing-item h3 {
-            text-align: center;
-            font-size: 24px;
-            color: #6c4a3d;
-        }
-        .pricing-item p {
-            font-size: 16px;
-            margin-bottom: 15px;
-        }
-        .pricing-item .price {
-            font-size: 32px;
-            color: #a74c5b;
-            font-weight: bold;
-            text-align: center;
-        }
-        .testimonial {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .testimonial-item {
-            width: 45%;
-            background-color: #fff;
-            padding: 20px;
-            margin: 10px;
-            border-radius: 5px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .testimonial-item img {
-            max-width: 100%;
-            border-radius: 5px;
-        }
-        .testimonial-item h3 {
-            font-size: 20px;
-            color: #6c4a3d;
-            margin-bottom: 10px;
-        }
-        .testimonial-item p {
-            font-size: 16px;
-            color: #666;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Стрела Амура: Марафон, который изменит твои отношения</h1>
+        <img src="https://imgur.com/3r6sWSE" alt="Марафон Стрела Амура" class="hero-image">
+    </header>
 
-<header>
-    <h1>🌹 Стрела Амура — марафон о любви и гармоничных отношениях</h1>
-</header>
+    <div class="content">
+        <p>Дорогая, готова сделать важный шаг к гармонии в отношениях? Я рада пригласить тебя на марафон «Стрела Амура», где ты сможешь найти ответы на самые важные вопросы, связанные с любовью, гармонией и отношениями.</p>
+        <p>Марафон состоит из 5 дней, каждый из которых посвящён важным аспектам отношений. Ты получишь проверенные знания, а также практические задания для того, чтобы твоя жизнь наполнилась светом и любовью. Мы будем работать с теми блоками, которые мешают нам быть счастливыми в отношениях. Всё это с поддержкой и глубокими инсайтами, которые принесёт тебе участие в марафоне.</p>
+        <a href="https://wa.me/905444405770" class="cta-button">Записаться на марафон</a>
+    </div>
 
-<section class="section">
-    <img src="https://raw.githubusercontent.com/YanaForza/landing-page/413210213cbf6cef8eb03f5879068427ee53757e/images/%D0%94%D0%BE%D0%B4%D0%B0%D1%8E%D1%82%D0%B5%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BE%D0%BA.jpg" alt="Марафон" style="width: 100%; border-radius: 5px;">
-</section>
-
-<section class="section">
-    <h2>Что тебя ждёт на марафоне?</h2>
-    <ul>
-        <li>День 1: Как узнать, что он за человек по дате рождения?</li>
-        <li>День 2: Где и когда ты встретишь свою судьбу?</li>
-        <li>День 3: Почему нас тянет в свою тень?</li>
-        <li>День 4: Сексуальная совместимость: чего хочет он и чего хочешь ты?</li>
-        <li>День 5: Каким становится мужчина рядом с тобой?</li>
-    </ul>
-</section>
-
-<section class="section">
-    <h2>Тарифы</h2>
-    <div class="pricing-table">
-        <div class="pricing-item">
+    <div class="pricing">
+        <h2>Выбери свой тариф</h2>
+        <div class="price-option">
             <h3>Стандарт</h3>
-            <p>Доступ ко всем видеоурокам и заданиям</p>
-            <p>Обратная связь в чате (по желанию)</p>
+            <p>Доступ ко всем урокам и материалам</p>
             <p class="price">$15</p>
-            <p>🎁 Розыгрыш хорарного вопроса!</p>
+            <a href="https://wa.me/905444405770" class="cta-button">Записаться</a>
         </div>
-        <div class="pricing-item">
-            <h3>VIP</h3>
-            <p>Доступ ко всем видеоурокам и заданиям</p>
-            <p>Личная обратная связь + разборы</p>
-            <p>Эксклюзивные расклады Таро Манара</p>
+        <div class="price-option">
+            <h3>Вип</h3>
+            <p>Все материалы + розыгрыш персональной консультации на 30 минут + индивидуальные мини-разборы + скидка на курс по Таро Манара</p>
             <p class="price">$35</p>
-            <p>🎁 Бонусы: скидка на курс по Манаре, разбор мини-раскладов, консультация на 30 минут</p>
+            <a href="https://wa.me/905444405770" class="cta-button">Записаться</a>
         </div>
     </div>
-</section>
 
-<section class="section">
-    <h2>Отзывы участниц</h2>
-    <div class="testimonial">
-        <div class="testimonial-item">
-            <img src="https://raw.githubusercontent.com/YanaForza/landing-page/c90ac0631b6a7dc7ce7c38fc342344aac9539251/images/Screenshot_1.jpg" alt="Отзыв 1">
-            <h3>«Потрясающе! Я узнала столько нового о себе и своем партнере!»</h3>
-            <p>[Отзыв 1]</p>
-        </div>
-        <div class="testimonial-item">
-            <img src="https://raw.githubusercontent.com/YanaForza/landing-page/c90ac0631b6a7dc7ce7c38fc342344aac9539251/images/Screenshot_2.jpg" alt="Отзыв 2">
-            <h3>«Этот марафон действительно изменил мои отношения!»</h3>
-            <p>[Отзыв 2]</p>
+    <div class="testimonials">
+        <h2>Отзывы участниц</h2>
+        <div class="testimonial-images">
+            <img src="https://github.com/YanaForza/landing-page/blob/c90ac0631b6a7dc7ce7c38fc342344aac9539251/images/Screenshot_1.jpg?raw=true" alt="Отзыв 1">
+            <img src="https://github.com/YanaForza/landing-page/blob/c90ac0631b6a7dc7ce7c38fc342344aac9539251/images/Screenshot_2.jpg?raw=true" alt="Отзыв 2">
+            <img src="https://github.com/YanaForza/landing-page/blob/c90ac0631b6a7dc7ce7c38fc342344aac9539251/images/Screenshot_3.jpg?raw=true" alt="Отзыв 3">
+            <img src="https://github.com/YanaForza/landing-page/blob/c90ac0631b6a7dc7ce7c38fc342344aac9539251/images/Screenshot_4.jpg?raw=true" alt="Отзыв 4">
         </div>
     </div>
-</section>
 
-<section class="section">
-    <a href="https://wa.me/905444405770" class="button">Записаться на марафон</a>
-</section>
-
+    <footer>
+        <p>&copy; 2025 Стрела Амура. Все права защищены.</p>
+    </footer>
 </body>
 </html>
