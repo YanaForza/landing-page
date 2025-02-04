@@ -5,69 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Стрела Амура — марафон о любви</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;600&display=swap');
+
         body {
-            font-family: 'Playfair Display', serif;
-            background-color: #1a1a1a;
+            font-family: 'Montserrat', sans-serif;
+            background: url('https://imgur.com/a/1XbGvPx') no-repeat center center/cover;
             color: #fff;
             margin: 0;
             padding: 0;
         }
+
         .container {
             max-width: 900px;
             margin: auto;
-            padding: 40px;
+            padding: 50px 20px;
             text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(255, 215, 0, 0.3);
         }
+
         h1 {
+            font-family: 'Playfair Display', serif;
             font-size: 48px;
             font-weight: bold;
             color: #e6b800;
         }
+
         p {
             font-size: 20px;
             line-height: 1.6;
             margin-bottom: 20px;
         }
+
         .gold-line {
-            width: 80px;
+            width: 100px;
             height: 3px;
-            background: #e6b800;
+            background: linear-gradient(45deg, #e6b800, #b38700);
             margin: 20px auto;
+            border-radius: 2px;
         }
+
         .button {
             display: inline-block;
-            padding: 15px 30px;
+            padding: 15px 35px;
             font-size: 22px;
             font-weight: bold;
             text-decoration: none;
-            color: #fff;
-            background: linear-gradient(45deg, #e6b800, #b38700);
-            border-radius: 5px;
+            color: #1a1a1a;
+            background: linear-gradient(45deg, #ffd700, #ffb400);
+            border-radius: 8px;
             transition: 0.3s;
-            box-shadow: 0 4px 10px rgba(230, 184, 0, 0.5);
+            box-shadow: 0 5px 15px rgba(230, 184, 0, 0.5);
         }
+
         .button:hover {
-            background: linear-gradient(45deg, #b38700, #e6b800);
-            box-shadow: 0 6px 14px rgba(230, 184, 0, 0.7);
+            background: linear-gradient(45deg, #ffb400, #ffd700);
+            box-shadow: 0 6px 18px rgba(230, 184, 0, 0.7);
         }
+
         .pricing {
             display: flex;
             justify-content: space-around;
             margin-top: 40px;
+            flex-wrap: wrap;
         }
+
         .price-box {
-            background: #222;
+            background: rgba(34, 34, 34, 0.9);
             padding: 30px;
-            border-radius: 10px;
+            border-radius: 12px;
             width: 40%;
-            box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
+            box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
         }
+
         .price-box h2 {
             color: #e6b800;
             font-size: 26px;
+            font-family: 'Playfair Display', serif;
         }
+
         .price-box p {
             font-size: 18px;
+        }
+
+        .reviews {
+            margin-top: 50px;
+        }
+
+        .review-box {
+            background: rgba(255, 215, 0, 0.1);
+            padding: 20px;
+            margin: 10px auto;
+            border-radius: 10px;
+            max-width: 600px;
+            box-shadow: 0 2px 10px rgba(255, 215, 0, 0.2);
+        }
+
+        .review-box p {
+            font-style: italic;
+        }
+
+        .review-box strong {
+            color: #e6b800;
         }
     </style>
 </head>
@@ -75,8 +115,9 @@
 
     <div class="container">
         <h1>Стрела Амура</h1>
+        <img src="https://imgur.com/a/1XbGvPx" alt="Марафон Стрела Амура" width="100%">
         <div class="gold-line"></div>
-        <p>🔥 Марафон о любви и гармоничных отношениях. Готова узнать, каким должен быть твой мужчина и как создать идеальные отношения?</p>
+        <p>🔥 Марафон о любви и гармоничных отношениях. Готова узнать, каким может быть твой мужчина и как создать идеальные отношения?</p>
         
         <h2>📅 Даты проведения: 15–20 февраля</h2>
         <h3>💌 Формат: видеоуроки, практики, разборы</h3>
@@ -110,11 +151,18 @@
 
         <div class="gold-line"></div>
 
-        <h2>🔹 Почему тебе это нужно?</h2>
-        <p>💌 Если ты устала от неопределённости в любви...</p>
-        <p>💌 Если хочешь разобраться в мужчинах и в себе…</p>
-        <p>💌 Если тебе важно наладить настоящую эмоциональную связь с партнёром…</p>
-        
+        <h2>🔹 Отзывы участников</h2>
+        <div class="reviews">
+            <div class="review-box">
+                <p>💬 "Я наконец-то поняла, почему выбираю одних и тех же мужчин… И теперь знаю, как разорвать этот круг!"</p>
+                <strong>— Анна, 32 года</strong>
+            </div>
+            <div class="review-box">
+                <p>💬 "После марафона я встретила мужчину, который оказался моей судьбой. Это не магия — это знание!"</p>
+                <strong>— Ольга, 29 лет</strong>
+            </div>
+        </div>
+
         <div class="gold-line"></div>
 
         <h2>🔹 Записаться на марафон</h2>
